@@ -1,0 +1,54 @@
+=head1 NAME
+
+App::HTRender - a command line tool to work with HTML::Template templates 
+without requiring a web server.
+
+=head1 DESCRIPTION
+
+App::HTRender is a tool for working with HTML::Template templates from the 
+command line.  It is designed to be useful during the development process to 
+design templates and model the data to drive them, as well as a diagnostic tool
+to help troubleshoot problems with templates and/or the data used with them.
+
+=head1 REQUIREMENTS
+
+App::HTRender requires:
+
+=over 4
+
+=item * Perl 5.10 or later with 
+
+=item * HTML::Template 2.90 or later, and
+
+=item * JSON::Tiny 0.49 or later.
+
+=back
+
+=head1 INSTALLATION
+
+Use the normal CPAN tools to install App::HTRender.  You can also 
+install it manually using the included Makefile.PL and make:
+
+ perl Makefile.PL
+ make
+ make test
+ make install
+
+=head1 AUTHOR
+
+Andrew Johnson, E<lt>lajandy at cpan dotorgE<gt>
+
+=head1 COPYRIGHTS AND LICENSE
+
+Copyright (C) 2014 by Andrew Johnson.
+
+This library is free software; you can redistribute it and/or modify 
+it under the terms of the Artistic License 2.0.  See the included 
+LICENSE file for details.
+
+=head1 WARRANTY
+
+This software comes with no warranty of any kind.
+
+=cut
+
